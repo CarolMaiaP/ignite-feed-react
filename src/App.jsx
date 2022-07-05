@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Header } from './components/Header'
 import { Sidebar } from './components/Sidebar';
-import { Post } from './components/Post'
+import { Post } from './components/Post';
 
 import styles from './App.module.css';
 
@@ -16,12 +16,7 @@ export function App() {
       <div className={styles.wrapper}>
         <Sidebar/>
         <main>
-        <Post 
-          author="Caroline Maia"
-          content="Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator."/>
-        <Post 
-          author="Diego"
-          content="Post muito legal"/>
+          <Post/>
         </main>
       </div>
     </div>
