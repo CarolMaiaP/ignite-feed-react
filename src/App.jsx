@@ -37,7 +37,7 @@ const posts = [
     },
     content: [
       { type: 'paragraph', content: 'Fala galeraa 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
+      { type: 'paragraph', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae rutrum sem. Etiam a euismod tellus. Morbi maximus ut orci ac tincidunt. Ut at velit vitae nisl imperdiet sodales ac sed lacus. Suspendisse pharetra sagittis tellus. 🚀' },
       {type: 'link', content: 'jane.design/doctorcare'},
     ],
     publishedAt: new Date('2022-07-11 16:45:00'),
